@@ -130,5 +130,7 @@ if __name__ == '__main__':
     # get_rot_ids()
     # print(orientations_dict)
     print(dofs)
+    print()
     print(rot_ids)
+    print()
     print(orientations_dict)

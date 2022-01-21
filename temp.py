@@ -55,8 +55,10 @@ def get_dofs():
             if joint in l:
                 dof = src_data[i+3].split(' ')[1]
                 dof_dict[joint] = int(dof)
-    print(dof_dict)
+    
+    return dofs_dict
 
+dofs = get_dofs()
 dofs = {'hips': 6, 'LowerBack': 3, 'spine': 3, 'chest': 3, 'neck': 3, 'head': 6, 
 'shoulder.L': 6, 'upper_arm.L': 6, 'forearm.L': 3, 'hand.L': 3, 'palm.01.L': 6,
 'f_index.01.L': 3, 'f_index.02.L': 3, 'f_index.03.L': 3, 'thumb.01.L': 6,

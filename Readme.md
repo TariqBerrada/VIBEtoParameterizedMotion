@@ -4,7 +4,7 @@ This project aims at converting output of 3D pose estimation models to BVH files
 
 ## 1. Inference & json generation
 
-Start off by running inference on your video using a model such as HMR [2], VIBE [1] or PARE [3], then convert the pkl output to a json using the ??? script.
+Start off by running inference on your video using a model such as HMR [2], VIBE [4] or PARE [3], then convert the pkl output to a json using the ??? script.
 
 ![](figures/spinkick.gif)
 
@@ -26,8 +26,10 @@ With the generated BVH file, you can import to Parameterized Motion and use it a
 
 # References 
 
-[1] : Seyoung  Lee,  Sunmin  Lee,  Yongwoo  Lee,  and  Jehee  Lee.Learning a family of motor skills from a single motion.
+[1] : Seyoung  Lee,  Sunmin  Lee,  Yongwoo  Lee,  and  Jehee  Lee.  Learning a family of motor skills from a single motion.
 
 [2] : Angjoo Kanazawa, Michael J. Black, David W. Jacobs, and Ji-tendra Malik.  End-to-end recovery of human shape and pose.
 
-[3] : Muhammed  Kocabas,  Chun-Hao  P.  Huang,  Otmar  Hilliges,and Michael J. Black.  PARE: part attention regressor for 3dhuman body estimat
+[3] : Muhammed  Kocabas,  Chun-Hao  P.  Huang,  Otmar  Hilliges,and Michael J. Black.  PARE: part attention regressor for 3d human body estimation.
+
+[4] : Muhammed  Kocabas,   Nikos  Athanasiou,   and  Michael  J.Black.  VIBE: video inference for human body pose and shape estimation.

@@ -46,6 +46,15 @@ mapping = {
 idx_source = {v: source_joints.index(v) for v in mapping.values()}
 idx_target = {target_joints.index(k): k for k in mapping.keys()}
 
+mismatch = {
+    'shoulder.L' : (20, 25, 15),
+    'upper_arm.L' : (30, 0, -30),
+    'forearm.L' : (-15, -30, 40),
+    'shoulder.R' : (15, 25, 20),
+    'upper_arm.R' : (-30, 0, -30),
+    'forearm.R' : (-15, -30, 40)
+}
+
 def get_dofs():
     with open('data/estimated_animation.bvh') as f:
         src_data = f.readlines()
